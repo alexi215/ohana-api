@@ -100,6 +100,17 @@
   }
 }
 
+// Adds a red border around invalid input fields after form submission.
+.field_with_errors
+{
+  input
+  {
+    border-color: red;
+    border-width: 2px;
+    margin-left: 10px;
+  }
+}
+
 .add_fields, .add_array_fields
 {
   margin: 10px 0px 15px 10px;
