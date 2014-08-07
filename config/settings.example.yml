@@ -1,6 +1,3 @@
-# First, copy the contents of this file to a new file called "settings.yml",
-# overwriting the one that's already in the "config" directory.
-
 # Note that changes to this file require a server restart to take effect.
 
 ###############################
@@ -66,7 +63,13 @@ generic_domains:
 # This link appears when an admin views their locations and organizations.
 # See app/views/admin/locations/index.html.haml and
 # app/views/admin/organizations/index.html.haml.
-admin_support_email:
+#
+# Please make sure to change this to your own email address.
+admin_support_email: ohanapi@codeforamerica.org
+
+# The email address that confirmation emails are sent from after user signup.
+# Please make sure to change this to your own email address.
+confirmation_email: ohanapi@codeforamerica.org
 
 #########################
 #
@@ -114,3 +117,5 @@ test:
   - Atherton
 
   bounds: [[37.1074, -122.521], [37.7084, -122.085]]
+
+  confirmation_email: registration@ohanapi.org
